@@ -15,6 +15,9 @@
 		FC775C6E1C404DE600C9C5B5 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FC775C6D1C404DE600C9C5B5 /* pokemon.csv */; };
 		FC775C711C404F3F00C9C5B5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC775C701C404F3F00C9C5B5 /* Pokemon.swift */; };
 		FC775C741C405DF100C9C5B5 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC775C731C405DF100C9C5B5 /* PokeCell.swift */; };
+		FC775C761C40640200C9C5B5 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC775C751C40640200C9C5B5 /* csv.swift */; };
+		FC775C7B1C40952C00C9C5B5 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC775C7A1C40952C00C9C5B5 /* Pokemon.ttf */; };
+		FC775C7D1C4096A800C9C5B5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC775C7C1C4096A800C9C5B5 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		FC775C6D1C404DE600C9C5B5 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		FC775C701C404F3F00C9C5B5 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		FC775C731C405DF100C9C5B5 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		FC775C751C40640200C9C5B5 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		FC775C7A1C40952C00C9C5B5 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
+		FC775C7C1C4096A800C9C5B5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,9 @@
 				FC775C6F1C404EED00C9C5B5 /* Model */,
 				FC775C721C405DCE00C9C5B5 /* View */,
 				FC775C5B1C404B8400C9C5B5 /* AppDelegate.swift */,
-				FC775C5D1C404B8400C9C5B5 /* ViewController.swift */,
-				FC775C6D1C404DE600C9C5B5 /* pokemon.csv */,
+				FC775C781C40642800C9C5B5 /* Controller */,
+				FC775C771C40641500C9C5B5 /* Util */,
+				FC775C791C40643600C9C5B5 /* Resources */,
 				FC775C5F1C404B8400C9C5B5 /* Main.storyboard */,
 				FC775C621C404B8400C9C5B5 /* Assets.xcassets */,
 				FC775C641C404B8400C9C5B5 /* LaunchScreen.storyboard */,
@@ -87,6 +94,32 @@
 				FC775C731C405DF100C9C5B5 /* PokeCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		FC775C771C40641500C9C5B5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FC775C751C40640200C9C5B5 /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FC775C781C40642800C9C5B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC775C5D1C404B8400C9C5B5 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FC775C791C40643600C9C5B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC775C7C1C4096A800C9C5B5 /* music.mp3 */,
+				FC775C7A1C40952C00C9C5B5 /* Pokemon.ttf */,
+				FC775C6D1C404DE600C9C5B5 /* pokemon.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC775C661C404B8400C9C5B5 /* LaunchScreen.storyboard in Resources */,
+				FC775C7B1C40952C00C9C5B5 /* Pokemon.ttf in Resources */,
+				FC775C7D1C4096A800C9C5B5 /* music.mp3 in Resources */,
 				FC775C631C404B8400C9C5B5 /* Assets.xcassets in Resources */,
 				FC775C6E1C404DE600C9C5B5 /* pokemon.csv in Resources */,
 				FC775C611C404B8400C9C5B5 /* Main.storyboard in Resources */,
@@ -165,6 +200,7 @@
 				FC775C5E1C404B8400C9C5B5 /* ViewController.swift in Sources */,
 				FC775C5C1C404B8400C9C5B5 /* AppDelegate.swift in Sources */,
 				FC775C711C404F3F00C9C5B5 /* Pokemon.swift in Sources */,
+				FC775C761C40640200C9C5B5 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
